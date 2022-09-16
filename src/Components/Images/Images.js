@@ -14,6 +14,10 @@ import keyChain from "./keyChain.png";
 import message from "./message.png";
 import Instagram from "./Instagram.png";
 import twitter from "./twitter.png";
+import building from "./building.png";
+import corporateIcon1 from "./corporateIcon1.png";
+import corporateIcon2 from "./corporateIcon2.png";
+import corporateIcon3 from "./corporateIcon3.png";
 
 const Images = {
     imageID2x,
@@ -32,6 +36,10 @@ const Images = {
     message,
     Instagram,
     twitter,
+    building,
+    corporateIcon1,
+    corporateIcon2,
+    corporateIcon3,
 }
 
 export default Images;

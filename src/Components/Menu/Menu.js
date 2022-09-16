@@ -16,8 +16,8 @@ const Menu = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active">
-                            <NavLink className="nav-link active" to='/home'>Brand<span className="slash">/</span></NavLink>
+                        <li className="nav-item">
+                            <NavLink className="nav-link" to='/'>Brand<span className="slash">/</span></NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink className="nav-link" to='/catalogue'>Catalogue<span className="slash">/</span></NavLink>
@@ -26,10 +26,10 @@ const Menu = () => {
                             <NavLink className="nav-link" to='/corporate'>Corporate<span className="slash">/</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to='/'>News<span className="slash">/</span></NavLink>
+                            <NavLink className="nav-link" to='/news'>News<span className="slash">/</span></NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" to='/'>Contact</NavLink>
+                            <NavLink className="nav-link" to='/contact'>Contact</NavLink>
                         </li>
                     </ul>
                 </div>

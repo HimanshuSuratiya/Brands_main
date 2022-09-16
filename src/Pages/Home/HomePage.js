@@ -52,7 +52,7 @@ const HomePage = () => {
                         </button>
                     </div>
                     <div className="up-word">
-                        <a className="" href="#top"><i className="fa-solid fa-up"></i></a>
+                        <a className="" href="#"><i className="fa-solid fa-up"></i></a>
                     </div>
                     <section className="brands container-fluid">
                         <div className="d-flex flex-container row">
