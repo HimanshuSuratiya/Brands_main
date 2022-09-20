@@ -18,6 +18,10 @@ import building from "./building.png";
 import corporateIcon1 from "./corporateIcon1.png";
 import corporateIcon2 from "./corporateIcon2.png";
 import corporateIcon3 from "./corporateIcon3.png";
+import News from "./News.png";
+import Airmour from "./Airmour.png";
+import Boundy from "./Boundy.png";
+import Condition365 from "./365Condition.png";
 
 const Images = {
     imageID2x,
@@ -40,6 +44,10 @@ const Images = {
     corporateIcon1,
     corporateIcon2,
     corporateIcon3,
+    News,
+    Airmour,
+    Boundy,
+    Condition365,
 }
 
 export default Images;
