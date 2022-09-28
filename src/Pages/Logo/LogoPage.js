@@ -4,7 +4,7 @@ import "../../Common/Css/common.css";
 import Footer from "../../Components/Footer/Footer";
 import Menu from "../../Components/Menu/Menu";
 
-const HomePage = () => {
+const LogoPage = () => {
     return (
         <div id="top">
             <Menu />
@@ -52,7 +52,9 @@ const HomePage = () => {
                         </button>
                     </div>
                     <div className="up-word">
-                        <a className="" href="#"><i className="fa-solid fa-up"></i></a>
+                        <a className="" href="#bottom">
+                            <img src={Images.download} alt="path" />
+                        </a>
                     </div>
                     <section className="brands container-fluid">
                         <div className="d-flex flex-container row">
@@ -61,8 +63,8 @@ const HomePage = () => {
                                     <div className="d-flex flex-column align-items-center">
                                         <img src={Images.brandGroup4} alt="group" className="logo-brand" />
                                         <h1>"S" our gear-production philosophy</h1>
-                                        <h4>歯.車.理</h4>
-                                        <h4 className="text-japanese">人気商品 ギア製作理念 人気商品 ギア製作理念 </h4>
+                                        <h4>新・進・真</h4>
+                                        <h4 className="text-japanese">様々な「S」の下、より価値あるものを、より多くの人に </h4>
                                     </div>
                                 </div>
                             </div>
@@ -71,6 +73,12 @@ const HomePage = () => {
                                     <div className="parent-img">
                                         <div className="col-12 px-5">
                                             <img className="top-1-brand image" src={Images.beyondTheNext} alt="brand" />
+                                        </div>
+                                        <div className="link">
+                                            <a className="s-air-link" href="brand-index.html">
+                                                <i>View more</i>
+                                                <span className="right-arrow">{">"}</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -81,6 +89,12 @@ const HomePage = () => {
                                         <div className="col-12 px-5">
                                             <img className="slash-image image" src={Images.slashDontStay} alt="brand" />
                                         </div>
+                                        <div className="link">
+                                            <a className="s-air-link" href="brand-index.html">
+                                                <i>View more</i>
+                                                <span className="right-arrow">{">"}</span>
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -89,6 +103,12 @@ const HomePage = () => {
                                     <div className="parent-img">
                                         <div className="col-12 px-5">
                                             <img className="s-heat-image image" src={Images.sHeat} alt="brand" />
+                                        </div>
+                                        <div className="link">
+                                            <a className="s-air-link" href="brand-index.html">
+                                                <i>View more</i>
+                                                <span className="right-arrow">{">"}</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -100,18 +120,25 @@ const HomePage = () => {
                                             <img className="s-air-image image" src={Images.sAir} alt="brand" />
                                         </div>
                                         <div className="link">
-                                            <a className="s-air-link" href="S-air.html"><i>View more</i><span className="right-arrow">{'>'}</span></a>
+                                            <a className="s-air-link" href="brand-index.html">
+                                                <i>View more</i>
+                                                <span className="right-arrow">{">"}</span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </section>
+                    <section className="brands container-fluid">
+                        <div className="d-flex flex-container row">
                             <div className="container-fluid">
                                 <div className="row">
                                     <div className="d-flex align-items-center flex-column">
                                         <img src={Images.techGroup} alt="group" className="logo-brand" />
                                         <h1>Tech is the source of ultimate usability</h1>
-                                        <h4>究極の使いやすさの源は 究極の使いやすさの源は 究極の使いやすさの源は </h4>
-                                        <h4 className="text-japanese">人気商品 ギア製作理念 人気商品</h4>
+                                        <h4>究「使える」にとどまらない、より高いパフォーマンスを引出せ</h4>
+                                        <h4 className="text-japanese">飽くなき追求の一端がここに</h4>
                                     </div>
                                 </div>
                             </div>
@@ -121,34 +148,26 @@ const HomePage = () => {
                                         <div className="owl-carousel owl-theme">
                                             <div className="item tech-item">
                                                 <div className="d-flex flex-column px-4 py-5">
-                                                    <img src={Images.magicalDance} alt="function" />
+                                                    <img src="./images/function-logo-3@2x.png" alt="function" />
                                                     <h4>BOUNDY STRETCH</h4>
-                                                    <p>Lorem, ipsum dolor.</p>
-                                                    <p>Lorem, ipsum dolor.</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
                                                 </div>
                                             </div>
                                             <div className="item tech-item">
                                                 <div className="d-flex flex-column px-4 py-5">
                                                     <img src="./images/function-logo-3@2x.png" alt="function" />
                                                     <h4>BOUNDY STRETCH</h4>
-                                                    <p>Lorem, ipsum dolor.</p>
-                                                    <p>Lorem, ipsum dolor.</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
                                                 </div>
                                             </div>
                                             <div className="item tech-item">
                                                 <div className="d-flex flex-column px-4 py-5">
                                                     <img src="./images/function-logo-3@2x.png" alt="function" />
                                                     <h4>BOUNDY STRETCH</h4>
-                                                    <p>Lorem, ipsum dolor.</p>
-                                                    <p>Lorem, ipsum dolor.</p>
-                                                </div>
-                                            </div>
-                                            <div className="item tech-item">
-                                                <div className="d-flex flex-column px-4 py-5">
-                                                    <img src="./images/function-logo-3@2x.png" alt="function" />
-                                                    <h4>BOUNDY STRETCH</h4>
-                                                    <p>Lorem, ipsum dolor.</p>
-                                                    <p>Lorem, ipsum dolor.</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
+                                                    <p>□□□□■□□□□■□□□□■□□□□■□□□□■□□</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -157,7 +176,7 @@ const HomePage = () => {
                             </section> */}
                             <div className="under-line"></div>
                             <div className="view-more text-center">
-                                <a href="tech-index.html"><i>{'View more >'}</i></a>
+                                <a href="tech-index.html">View more<span className="right-arrow">{">"}</span></a>
                             </div>
                         </div>
                     </section>
@@ -170,48 +189,55 @@ const HomePage = () => {
                                 </div>
                                 <div className="flex-child">
                                     <img src={Images.shinmen2} alt="shinmen" />
-                                    <p className="sub-child">2021-2022AUTUMN / WINTER</p>
+                                    <p className="sub-child">2021-2022 AUTUMN / WINTER</p>
                                 </div>
                             </div>
                             <div className="border_bottom d-flex"></div>
                             <div className="page-link">
-                                <a href="#">{'もっと製品を見る >'}</a>
+                                <a href="catalogue.html">全てのWEBカタログを見る
+                                    <span className="right-arrow">{">"}</span>
+                                </a>
                             </div>
                         </div>
                     </section>
                     <section className="footer">
-                        <div className="news d-flex flex-column">
-                            <p className="news-one">{'2022.00.00 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'}</p>
-                            <p className="news-two">{'2022.00.00 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'}</p>
-                            <p className="news-three">{'2022.00.00 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'}</p>
-                            <div className="view-link">
-                                <a className="link-page" href="#"><i>View more</i><span className="right-arrow">{'>'}</span></a>
+                        <div className="news d-flex flex-column pt-5">
+                            <p className="news-one py-4">2022.00.00  □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□</p>
+                            <p className="news-two py-4">2022.00.00  □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□</p>
+                            <p className="news-three py-4">2022.00.00  □□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□</p>
+                            <div className="view-link text-center py-5">
+                                <a className="link-page" href="./news.html">
+                                    <i>View more</i>
+                                    <span className="right-arrow">{">"}</span>
+                                </a>
                             </div>
                         </div>
-                        <div className="container my-5">
+                        <div className="container py-5">
                             <div className="row d-flex">
                                 <div className="d-flex flex-d justify-content-evenly">
                                     <div className="d-flex flex-column align-items-center">
                                         <a className="social-link" href="#">
                                             <img src={Images.dialPad} alt="path" className="img" />
                                         </a>
-                                        <p className="mt-2">会社の建物</p>
+                                        <p className="mt-2">会社概要</p>
                                     </div>
                                     <div className="d-flex flex-column align-items-center">
                                         <a href="#" className="social-link">
                                             <img src={Images.keyChain} alt="path" className="img" />
                                         </a>
-                                        <p className="mt-2">リンクイン</p>
+                                        <p className="mt-2">採用情報</p>
                                     </div>
                                     <div className="d-flex flex-column align-items-center">
                                         <a href="#" className="social-link">
                                             <img src={Images.message} alt="group" className="img" />
                                         </a>
-                                        <p className="mt-2">郵便物</p>
+                                        <p className="mt-2">お問合せ</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                    </section>
+                    <section className="footer">
                         <Footer />
                     </section>
                 </div>
@@ -220,4 +246,4 @@ const HomePage = () => {
     );
 };
 
-export default HomePage;
+export default LogoPage;

@@ -22,6 +22,10 @@ import News from "./News.png";
 import Airmour from "./Airmour.png";
 import Boundy from "./Boundy.png";
 import Condition365 from "./365Condition.png";
+import Rectangle from "./Rectangle-8.png";
+import Groupcorporate from "./Group-corporate-107.png";
+import Grouprecruit from "./Group-recruit107.png";
+import download from "./download.png";
 
 const Images = {
     imageID2x,
@@ -48,6 +52,10 @@ const Images = {
     Airmour,
     Boundy,
     Condition365,
+    Rectangle,
+    Groupcorporate,
+    Grouprecruit,
+    download,
 }
 
 export default Images;
