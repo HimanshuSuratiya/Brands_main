@@ -5,12 +5,14 @@ import CataloguePage from "./Pages/Catalogue/CataloguePage";
 import { Routes, Route, Navigate } from "react-router-dom";
 import CorporatePage from "./Pages/Corporate/CorporatePage";
 import NewsPage from "./Pages/News/NewsPage";
+import BrandPage from "./Pages/Brand/BrandPage";
 
 function App() {
   return (
     <>
       <Routes>
         <Route path="/" element={<LogoPage />} />
+        <Route path="/brand" element={<BrandPage />} />
         <Route path="/catalogue" element={<CataloguePage />} />
         <Route path="/corporate" element={<CorporatePage />} />
         <Route path="/news" element={<NewsPage />} />

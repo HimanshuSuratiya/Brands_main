@@ -238,7 +238,7 @@ const LogoPage = () => {
                         </div>
                     </section>
                     <section className="footer">
-                        <Footer />
+                        <Footer brandName="シンメン株式会社" firstName="〒726-0012広島県 府中市 中須町20-1" secondName="TEL.0847-52-7440（代表）" />
                     </section>
                 </div>
             </div>

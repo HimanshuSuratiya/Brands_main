@@ -26,6 +26,10 @@ import Rectangle from "./Rectangle-8.png";
 import Groupcorporate from "./Group-corporate-107.png";
 import Grouprecruit from "./Group-recruit107.png";
 import download from "./download.png";
+import stxicon from "./stxicon.png";
+import slashicon from "./slashicon.png";
+import sairicon from "./sairicon.png";
+import sheaticon from "./sheaticon.png";
 
 const Images = {
     imageID2x,
@@ -56,6 +60,10 @@ const Images = {
     Groupcorporate,
     Grouprecruit,
     download,
+    stxicon,
+    slashicon,
+    sairicon,
+    sheaticon,
 }
 
 export default Images;
