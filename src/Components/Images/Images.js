@@ -30,6 +30,11 @@ import stxicon from "./stxicon.png";
 import slashicon from "./slashicon.png";
 import sairicon from "./sairicon.png";
 import sheaticon from "./sheaticon.png";
+import personImage from "./personImage.png";
+import personImage2 from "./personImage2.png";
+import personImage3 from "./personImage3.png";
+import brandConcept from "./brandConcept.png";
+import otherLineup from "./otherLineup.png";
 
 const Images = {
     imageID2x,
@@ -64,6 +69,11 @@ const Images = {
     slashicon,
     sairicon,
     sheaticon,
+    personImage,
+    personImage2,
+    personImage3,
+    brandConcept,
+    otherLineup,
 }
 
 export default Images;

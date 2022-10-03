@@ -6,6 +6,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import CorporatePage from "./Pages/Corporate/CorporatePage";
 import NewsPage from "./Pages/News/NewsPage";
 import BrandPage from "./Pages/Brand/BrandPage";
+import StxPage from "./Pages/Stx/StxPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/catalogue" element={<CataloguePage />} />
         <Route path="/corporate" element={<CorporatePage />} />
         <Route path="/news" element={<NewsPage />} />
+        <Route path="/brand/stx-details" element={<StxPage />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </>

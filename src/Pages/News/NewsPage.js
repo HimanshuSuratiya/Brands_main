@@ -166,7 +166,7 @@ const NewsPage = () => {
                         </div>
                     </section>
                     <section className="container-fluid brands">
-                        <Footer />
+                        <Footer brandName="夏のブランド" firstName="夏のブランド" secondName="TEL. 0874-8784-3827 ブラ夏の" />
                     </section>
                 </div>
             </div>

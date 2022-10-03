@@ -18,7 +18,7 @@ const CorporatePage = () => {
                                         <div className="top container">
                                             <p>{'Top > xxxxxxxxxxxxx'}</p>
                                         </div>
-                                        <div className="banner py-5 catalogue-banner">
+                                        <div className="banner py-5 corporate-banner">
                                             <img style={{ opacity: '0.5' }} className="banner-img image" src={Images.building} alt="img" />
                                         </div>
                                     </div>
@@ -140,7 +140,7 @@ const CorporatePage = () => {
                             </div>
                         </section>
                         <section className="footer pt-5">
-                            <Footer />
+                            <Footer brandName="夏のブランド" firstName="夏のブランド" secondName="TEL. 0874-8784-3827 ブラ夏の" />
                         </section>
                     </div>
                 </div>
